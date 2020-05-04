@@ -19,6 +19,7 @@ Yolov3 did not success to extract bird on a couple of images. Here are some exam
 <p align="center">
   <img src="imgs/extraction_failed.png">
 </p>
+Those birds are also not easily visible by human eyes.
 
 ## Trained Models & Quantitaves Results
 I've used transfert learning with 2 differents models to classify the images on the dataset.
@@ -39,6 +40,6 @@ Bert with Attention outperforms the other methods
 
 I've plot a TSNE representation of images of the validation set
 <p align="center">
-  <img src="img/tsne.png">
+  <img src="imgs/tsne.png">
 </p>
 
