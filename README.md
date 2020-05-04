@@ -24,7 +24,7 @@ The .ipynb contains all the script to reproduce the results i obtained. It can b
 The performance in terms of accuracy of the models are in the following table : 
 
 | Algorithm  | Precision on Validation |Precision on public part |
-| ------------- | ------------- | 
+| ------------- | ------------- | ------------- |
 | InceptionV3 | 93 | 86.45 |
 | Resnet101  | 91 | 80.0 |
 
