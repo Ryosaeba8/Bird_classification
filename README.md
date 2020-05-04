@@ -12,7 +12,7 @@ The Dataset is a subset of the Caltech-UCSD Birds-200-2011 bird dataset. For get
 I used yolov3 model to extract bounding boxes of birds before applying classification models. My code include steps for installing the library darknet. Figure below shows the output of darknet applied on a couple of images.
 
 <p align="center">
-  <img src="imgs/extraction.png">
+  <img src="imgs/extraction.jpg">
 </p>
 
 Yolov3 did not success to extract bird on a couple of images. Here are some examples.
