@@ -15,6 +15,11 @@ I used yolov3 model to extract bounding boxes of birds before applying classific
   <img src="img/extraction.png">
 </p>
 
+Yolov3 did not success to extract bird on a couple of images. Here are some examples.
+<p align="center">
+  <img src="img/extraction_failed.png">
+</p>
+
 ## Trained Models & Quantitaves Results
 I've used transfert learning with 2 differents models to classify the images on the dataset.
 
@@ -25,8 +30,8 @@ The performance in terms of accuracy of the models are in the following table :
 
 | Algorithm  | Precision on Validation |Precision on public part |
 | ------------- | ------------- | ------------- |
-| InceptionV3 | 93 | 86.45 |
-| Resnet101  | 91 | 80.0 |
+| InceptionV3 | 92 | 86.45 |
+| Resnet101  | 94 | 80.0 |
 
 Bert with Attention outperforms the other methods
 
